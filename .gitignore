@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore FAISS index files (optional if large)
+*.faiss
+*.pkl
